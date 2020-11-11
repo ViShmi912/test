@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+}
+
+@font-face {
+    font-family: 'boh';
+    src: url(Font/Boheme Floral.ttf);
+    font-style: normal;
+}
+
+html{
+    background-color: #fff;
+    color:555;
+    font-family: 'Lato','arial',sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after{
+    content: '.';
+    clear:both;
+    display: block;
+    height:0;
+    visibility:;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
+     background-size: cover;
+    background-position: center;
+    height: 90vh;    
+       background-attachment: fixed;
+}
+
+
+
+/**************************************************************************************/
+
+/*wedding*/
+
+.mehandi img{
+    box-sizing: border-box
+}
+
+
+.invite img{
+    height: 100vh;
+}
+
+
+
+
+.bgw {
+/*    padding-bottom: 1200px;*/
+    padding-left: 290px;
+/*    width: 120%;*/
+}
+
+.headWed p{
+    font-family: 
+}
+
+/**************************************************************************************/
+/******************************************************************************************/
+/***headings*/
+/******************************************************************************************/
+h1,h2,h3{
+
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h1{    
+    letter-spacing: 1px;
+    color: #fd2b36;    
+   font-size:240%; 
+    margin: 0;
+    word-spacing: 4px;
+}
+
+h2{
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:  #fd2b36;
+    width:100px;
+    content:"";
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3{
+
+    margin-bottom: 30px;
+}
+/******************************************************************************/
+/******************************************************************************/
+.hero-text-box{
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.btn-solid{
+    background:  #fd2b36;
+    border-radius: 10px;
+     margin-left: 5px;
+    font-size: 110%;
+}
+
+.btn-ghost{
+    margin-left: 5px;
+    font-size: 110%;
+}
+
+.btn-solid:link,
+.btn-solid:visited,
+input[type=submit]{
+    
+    border: 2px solid  #9b0427;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-solid:hover,
+.btn-solid:active,
+input[type=submit]{
+    background:  #9b0427;
+    border: 2px solid  #fd2b36;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 2px solid  #fd2b36;
+   padding: 10px auto;    
+    text-decoration: none;
+    color: #fd2b36;
+    border-radius: 10px;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background: #9b0427;
+    border: 2px solid  #9b0427;
+    text-decoration: none;
+    color:#fd2b36;
+    font-weight: 300;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #9b0427;
+    border: 2px solid  #fd2b36;
+   padding: 10px auto;    
+    text-decoration: none;
+    color: white;
+     transition: background-color 0.2s, border 0.2s;
+}
+
+.hero-text-box img{
+    height:100px;
+    width: auto;
+    transform: translate(0,-200%);
+        
+}
+
+/***********************************************************/
+/*NAVIGATION*/
+/***********************************************************/
+nav{
+    color: #fff;
+    text-align: center;  
+}
+
+nav li{
+     padding-top:50px;
+    float: right;
+    padding-right: 60px;
+    text-align: center;
+    font-size: 110%;
+}
+
+nav a:link,
+nav a:visited{
+    color: white;
+    text-decoration:none;
+    
+}
+
+nav a:active,
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid #fd2b36;
+    padding-bottom: 20px;
+}
+
+.img{
+    
+    height:110px;
+    width: auto;
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;    
+}
+
+.black{
+    display: none;
+    height:60px;
+    width: auto;
+    float: left;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+
+/*****************************sticky***********************************/
+
+.sticky{
+    color: black;
+    font-size: 110%;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 2px #656565;
+    z-index: 9999;
+}
+
+.sticky li{
+    font-size: 110%;
+    color:black;
+    margin-top: -1px;
+    padding-top: 20px;
+}
+
+
+.sticky a:link,
+.sticky a:visited{
+    color: black;
+    text-decoration:none;
+    
+}
+
+.sticky a:active,
+.sticky a:hover{
+    color: black;
+    border-bottom: 3px solid #fd2b36;
+}
+
+.sticky .img{display: none;}
+
+.sticky .black{
+    display: block; 
+}
+
+/****************************************************************/
+/*PARA*/
+/****************************************************************/
+.top p{
+  width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    line-height: 145%;
+    margin-bottom: 30px;
+}
+
+.box{
+    margin: 0 30px;
+}
+
+/*****************************************************************/
+/*ICONS*/
+/*****************************************************************/
+
+i{
+    color:#fd2b36;
+    font-size:350%;   
+    margin-bottom: 30px; 
+    font-weight: 100;
+}
+.class2{
+    color:#fd2b36;
+    font-size:350%;
+    margin-bottom: 30px; 
+    font-weight: 100;
+}
+.class1{
+    color:#fd2b36;
+    font-size:350%;
+    margin-bottom: 30px;
+}
+
+/*****************************************************************/
+/*MEALS*/
+/*****************************************************************/
+
+/*.clearfix {zoom: 1}
+.clearfix{
+    content: '.';
+    clear:both;
+    display: block;
+    height:0;
+    visibility: hidden;
+}*/
+.section-meals{
+    margin-top: 30px;
+    padding: 0;
+}
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{   
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo{
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img{
+    height: 10vh;
+    opacity:0.7;
+    width: 100%;
+    height:auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.meal-photo img:hover{
+    opacity:1;
+    transform: scale(1.03);
+}
+
+/*****************************************************************/
+/*HOW IT WORKS*/
+/*****************************************************************/
+
+.section-works{
+    margin-top: 0;
+    background-color: #e8e8e8;
+     padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.steps-box img{
+    width: 45%; 
+}
+
+.work-steps{
+    margin-top:55px;
+    margin-bottom: 50px;
+}
+
+.work-steps div{
+    color: #fd2b36;
+    border: 2px solid #fd2b36;
+    display: inline-block;
+    border-radius: 50%;
+    height:55px;
+    width:55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border:0;
+}
+
+
+.btn-app img{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width:150px;
+    height: 50px;
+}
+
+/**********************************************************************/
+/*CITIES*/
+/**********************************************************************/
+
+.section-cities{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+ion-icon{
+    color:#fd2b36;
+}
+
+.city-feature{
+    line-height: 140%;
+}
+ion-icon:after:link,
+ion-icon:after:visited{
+    color: #fd2b36;
+    text-decoration:none;
+    border-bottom: 1px solid #fd2b36;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s,color 0.2s
+}
+
+city-feature:hover,
+city-feature:active{
+    color: #555;
+    text-decoration:none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+}
+
+
+/**********************************************************************/
+/*TESTIMONIALS*/
+/**********************************************************************/
+
+
+.section-testimonials{
+    padding-bottom: 40px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)), url(img/back.jpg);
+    height: 70%;
+    color:#fff;
+    text-align: justify;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    top: -5px;
+    left: 5px;
+}
+
+blockquote{
+    margin: 30px 20px;
+    float: left;
+    font-style: italic;
+    line-height: 145%;
+}
+
+cite{
+    float:left;
+    font-size: 90%;
+    font-style: italic;  
+    margin-left: 20px;
+}
+
+.section-testimonials img{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    float:left;
+   transform: translate(0,-30%);
+    margin-right: 10px;
+}
+
+/**********************************************************************/
+/*PRICES*/
+/**********************************************************************/
+
+
+.section-prices{
+    padding-bottom: 30px;
+    background-color: #f4f4f4;
+    line-height:145%; 
+    width: 100%; 
+}
+
+.ico li{
+    list-style: none;
+      margin: 20px 3px;
+}
+.ico{
+    margin-left: 2%;
+    width: 90%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 4px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.plan-price{
+    font-size: 300%;
+    color:#fd2b36;
+    margin: 20px 0;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.dt{
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+/**********************************************************************/
+/*SIGN UP*/
+/**********************************************************************/
+
+.form{
+    width:60%;
+    margin:20px auto;
+    box-shadow: 2px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width:100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+textarea{
+    margin-top: 8px;
+    height: 100px;
+    resize: none;
+}
+
+
+*:focus{
+    outline: none;
+}
+
+
+
+/***********************************************************/
+/*FOOTER*/
+/***********************************************************/
+
+footer{
+    background: #333;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.nav-links,
+.soc-links{
+    list-style: none;
+}
+.nav-links li{
+    float:left;
+    margin-right: 15px;
+        display: inline-block;
+}
+
+.soc-links li{
+    margin-right: 15px;
+    float:right;
+        display: inline-block;
+}
+
+a{
+      color: #fd2b36;
+    text-decoration: none;
+    font-size: 80%;
+    transition: color 0.5s;
+}
+a:hover{
+    color:aliceblue;
+}
+
+#rr{
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 70%;
+}
+
+
+ion-icon{
+    color:#fd2b36;
+}
+
+
+.i0:hover,
+.i0:active{
+    color:#25D366;
+      transition: color 0.5s; 
+}
+.i4:hover,
+.i4:active{
+    color: #3b5999;
+      transition: color 0.5s; 
+}
+.i3:hover,
+.i3:active{
+    color: #e4405f;
+      transition: color 0.5s; 
+}
+.i2:hover,
+.i2:active{
+    color:#55acee;
+      transition: color 0.5s; 
+}
+
+.i1:hover,
+.i1:active{
+    color:#FFFC00;
+      transition: color 0.5s; 
+}
+
+.i0:hover,
+.i0:active,
+.i4:hover,
+.i4:active,
+.i3:hover,
+.i3:active;
+.i2:hover,
+.i2:active,
+.i1:hover,
+.i1:active{
+  transition: color 0.5s;  
+}
+
+
+.common {
+    padding-left: 250px;
+}
+
+
+/**********************************************************************/
+/*Animations*/
+/**********************************************************************/
+
+.js--wp-1.animated,
+.js--wp-3.animated,
+.js--wp-4.animated{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-3{ 
+    animation-duration: 1s;
+}
+
+.animated{
+    opacity: 1;
+}
+
+
+.imgHead {
+    padding-left: 20px;
+    margin-left: 10px;
+}

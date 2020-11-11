@@ -1,0 +1,151 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*//*
+
+@charset "utf-8";
+
+* { margin: 0; padding: 0; }
+body {}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+h2 { font: 24px Georgia; margin: 0 0 10px 0; }
+h3 { margin: 0 0 8px 0; }
+p { margin: 0 0 20px 0; }
+
+#fluid-wrap {
+  width: 70%; 
+  margin: 60px auto;
+  padding: 20px;
+  background: #eee;
+  overflow: hidden;
+}
+
+#sidebar {
+  width: 35%;
+  float: left;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li a {
+  color: #900;
+  text-decoration: none;
+  padding: 3px 0; 
+  display: block;
+}
+*/
+@media all and (min-width: 1001px) {
+
+    body{font-size: 100%}
+  .hero-text-box{
+        width: 100%;
+        padding 3% 2%;
+    }
+    .hero-text-box img{
+        transform: translate(10%,-160%);
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+ 
+    body{font-size: 16px;}
+    nav li{
+     padding-right: 30px;
+}
+    .hero-text-box{
+        width: 100%;
+        padding 0% 2%;
+    }
+    .row{
+        padding: 0 4% 0 4%;
+    }
+      .hero-text-box img{
+        transform: translate(-4%,-10%);
+          height: 90px;
+    }
+    .steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 40px;
+}
+    .work-steps div{
+    color: #e67e22;
+        font-size:80%;
+    height:30px;
+    width:30px;
+        padding-bottom: 8px;
+}
+    .work-steps{
+    
+    margin-bottom: 10px;
+        font-size: 80%;
+        
+}
+    .work-steps:first-child{
+        margin-top: 30px;
+    }
+    .btn-app img{
+    width:100px;
+        margin:0 0 100px 10px ;
+    height: 30px;
+        float:right;
+}
+    .price-box{
+        font-size: 90%;
+    }
+    .btno{
+        padding:2% 2% ;
+        font-size: 120%;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  
+    body{font-size: 15px;}
+    .nav{
+        margin: 0 0 0 0;
+        padding: 0
+    }
+    
+    .work-steps{
+    margin-top: 10px;
+    margin-bottom: 10px;
+        font-size: 80%;
+        
+}
+    .work-steps:first-child{
+        margin-top: 30px;
+    }
+    .btn-app img{
+        width:15%;
+        margin:0 0 70px 10px ;
+        height: auto;
+        float:right;
+}
+    .price-box{
+        font-size: 120%;
+    }
+     .work-steps div{
+        color: #e67e22;
+        font-size:80%;
+        height:30%;
+        width:auto;
+        padding-bottom: 8px;
+}
+    .section-cities{font-size: 80%;}
+    blockquote{font-size: 70%; text-align:left;}
+    
+    .dt1{padding-bottom: 12%;background: #fff}
+    
+}
+
+
+
